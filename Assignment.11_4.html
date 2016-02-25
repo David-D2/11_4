@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!-- Assignment –Make use of ng-Bind attribute and show values of scope inside the view. -->
+    <title></title>
+    <script src="http://localhost:56130/angular.min.js"></script>
+</head>
+<body ng-app>
+    <div>
+        Name: <input ng-model="name" type="text" />
+        <br />
+        Hello <span ng-bind="name"></span>!
+    </div>
+    <br/>
+    <br/>
+    <div>
+        Two-way binding of Name: <input ng-model="name" type="text" />
+        <br />
+        ONE-WAY binding of Name: <button type="button" ng-bind="name"></button>
+    </div>
+</body>
+</html>
